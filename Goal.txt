@@ -1,0 +1,15 @@
+Create and build a crew that acts as a travel assistant (Typical example for CrewAI)
+
+After taking the request from the user, it has to:
+
+Check flights [ you can make this as a dummy function that returns random flights]
+
+Check hotels and give suggestions [you can use gemini api for example, tell it to generate dummy data] 
+
+Prepare a tourism tour in the country they are going to
+
+give them advices
+
+Make sure to use CrewAI. You can use Agents and Tasks as you wish, no limitations.
+
+You can also add any other option you see is a good fit for this use case

@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+os
+streamlit
+litellm
+dotenv
+crewai
