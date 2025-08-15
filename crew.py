@@ -8,7 +8,7 @@ load_dotenv()
 API_KEY = os.getenv("OPENAI_API_KEY")
 
 st.set_page_config(page_title="Travel Assistant Chatbot", layout="centered")
-st.title("Hello, I am your Travel Assistant!")
+st.title("Travel Assistant Chatbot")
 
 # User Input
 destination = st.text_input("Enter your destination:")
@@ -147,4 +147,5 @@ if destination:
         st.markdown(f"**You:** {chat['question']}")
         st.markdown(f"**Bot:** {chat['answer']}")
         st.markdown("----------")
+
 
